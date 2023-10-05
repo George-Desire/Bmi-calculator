@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    width: 90%;
+    margin: 1rem;
+    border: none;
+    outline: none;
+    border-bottom: 0.1rem solid black;
+    background: none;
+    color: black;
+
+}
+input:focus{
+    border-bottom: 0.2rem solid rgb(205, 230, 12);
+}
+::placeholder{
+    color: black;
+}
+button{
+    outline: none;
+    border: none;
+    
+}
+.main{
+    margin-top: 2rem;
+    width: 20rem;
+    height: 33rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    background-image: linear-gradient(#ffaf7b,#d76d77, #3a1c71);
+    
+}
+.main h3{
+    margin-top: 3rem;
+    margin-left: 0.2rem;
+
+}
+.form{
+margin-top: 2rem;
+}
+.submit-button{
+    border: none;
+    outline: none;
+}
+.submit-button:focus{
+    color: rgb(205, 230, 12);
+    border: none;
+}
