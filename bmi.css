@@ -29,7 +29,7 @@ button{
     border: none;
     
 }
-.main{
+.holder{
     margin-top: 2rem;
     width: 20rem;
     height: 33rem;
@@ -38,10 +38,10 @@ button{
     background-image: linear-gradient(#ffaf7b,#d76d77, #3a1c71);
     
 }
-.main h3{
+.holder h3{
     margin-top: 3rem;
-    margin-left: 0.2rem;
-
+    margin-left: 1.2rem;
+    color: white;
 }
 .form{
 margin-top: 2rem;
@@ -49,6 +49,7 @@ margin-top: 2rem;
 .submit-button{
     border: none;
     outline: none;
+    color: rgb(205, 230, 12);
 }
 .submit-button:focus{
     color: rgb(205, 230, 12);
